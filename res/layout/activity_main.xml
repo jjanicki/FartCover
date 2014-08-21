@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    tools:context="${packageName}.${activityClass}" >
+
+    <Button
+       	android:background="@drawable/white_button"
+       	android:id="@+id/playFaucet"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/playFaucet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="playFaucet"
+        android:text="@string/PlayFaucet"
+        android:textSize="20sp" />   
+
+    <Button
+        android:background="@drawable/white_button"
+        android:id="@+id/playHandDryer"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/playFaucet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="playHandDryer"
+        android:text="@string/HandDryer"
+        android:textSize="20sp" />
+    
+    <Button
+        android:background="@drawable/white_button"
+        android:id="@+id/stopSound"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/StopSound"
+        android:textSize="20sp" />
+
+</RelativeLayout>
