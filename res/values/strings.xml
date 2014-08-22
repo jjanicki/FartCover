@@ -6,5 +6,7 @@
     <string name="PlayFaucet">Bathroom Sink</string>
     <string name="StopSound">Stop</string>
     <string name="HandDryer">Hand Dryer</string>
+    <string name="about">This is not the button you are looking for</string>
+    <string name="donate">Donate</string>
 
 </resources>
