@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import com.trogdor.bathroomcover1.R;
 
+
 public class MainActivity extends Activity {
 
 	@Override
