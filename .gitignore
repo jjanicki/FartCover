@@ -1,7 +1,0 @@
-*.class
-bin/*
-gen/*
-*.apk
-*.log
-project.properties
-.classpath
