@@ -33,7 +33,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:background="@drawable/white_button"
+        android:background="@drawable/red_button"
         android:id="@+id/stopSound"
         android:layout_width="fill_parent"
         android:layout_height="60dp"
