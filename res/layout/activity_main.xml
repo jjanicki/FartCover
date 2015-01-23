@@ -10,9 +10,10 @@
        	android:id="@+id/playFaucet"
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:layout_below="@+id/playFaucet"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:onClick="playFaucet"
         android:text="@string/PlayFaucet"
         android:textSize="20sp" />   
@@ -25,10 +26,12 @@
         android:layout_below="@+id/playFaucet"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:onClick="playHandDryer"
         android:text="@string/HandDryer"
         android:textSize="20sp" />
-    
+
     <Button
         android:background="@drawable/white_button"
         android:id="@+id/stopSound"
@@ -37,6 +40,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="@string/StopSound"
         android:textSize="20sp" />
 
