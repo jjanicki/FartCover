@@ -28,6 +28,10 @@ public class SanityTests extends ActivityInstrumentationTestCase2<MainActivity> 
 		assertTrue(mainActivity != null);
 	}
 
+    public void testMediaPlayer(){
+        assertTrue(mainActivity.mp.getClass().getName() == "android.media.MediaPlayer");
+    }
+
 	protected void tearDown() throws Exception {
 		super.tearDown();
 	}
