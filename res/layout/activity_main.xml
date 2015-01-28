@@ -33,6 +33,45 @@
         android:textSize="20sp" />
 
     <Button
+        android:background="@drawable/white_button"
+        android:id="@+id/playToiletSound"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/playHandDryer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="playToilet"
+        android:text="@string/toilet"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:id="@+id/playFart"
+        android:layout_height="40dp"
+        android:layout_below="@+id/playToiletSound"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="@string/ethan"
+        />
+
+    <Button
+        android:background="@drawable/white_button"
+        android:id="@+id/playFartSound"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/playFart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="playFart"
+        android:text="@string/Fart"
+        android:textSize="20sp" />
+
+    <Button
         android:background="@drawable/red_button"
         android:id="@+id/stopSound"
         android:layout_width="fill_parent"
@@ -43,6 +82,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/StopSound"
+        android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
 </RelativeLayout>
